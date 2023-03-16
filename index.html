@@ -33,13 +33,13 @@
         <script>
             let newConvo = document.getElementById('rb-new');
             function getNewConvo() {
-                document.getElementById('rb-chatbot-frame').src = '/new-chabot';
+                document.getElementById('rb-chatbot-frame').src = 'https://starlit-frangollo-f1459d.netlify.app/new-chabot';
             }
             newConvo.addEventListener('click', getNewConvo);
 
             let oldConvo = document.getElementById('rb-existing');
             function getOldConvo() {
-                document.getElementById('rb-chatbot-frame').src = '/main-chabot';
+                document.getElementById('rb-chatbot-frame').src = 'https://starlit-frangollo-f1459d.netlify.app/main-chabot';
             }
             oldConvo.addEventListener('click', getNewConvo);
         </script>
