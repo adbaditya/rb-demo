@@ -33,7 +33,7 @@
         <script>
             let newConvo = document.getElementById('rb-new');
             function getNewConvo() {
-                document.getElementById('rb-chatbot-frame').src = 'https://starlit-frangollo-f1459d.netlify.app/new-chabot';
+                document.getElementById('rb-chatbot-frame').src = 'https://starlit-frangollo-f1459d.netlify.app/main/new-chatbot';
             }
             newConvo.addEventListener('click', getNewConvo);
 
@@ -41,7 +41,7 @@
             function getOldConvo() {
                 document.getElementById('rb-chatbot-frame').src = 'https://starlit-frangollo-f1459d.netlify.app/main-chabot';
             }
-            oldConvo.addEventListener('click', getNewConvo);
+            oldConvo.addEventListener('click', getOldConvo);
         </script>
     </body>
 </html>
